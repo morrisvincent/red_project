@@ -1,0 +1,201 @@
+:root{
+    --texts: #C67F7F;
+    --extra: #ececec;
+}
+*{
+    color: #C67F7F;
+    font-family: 'Nova Square', sans-serif; 
+}
+.logsz{
+    height: 100px;
+}
+.bgh{
+    height: 100vh;
+
+    background: url(./media/mountains2.png), linear-gradient(180deg, white, rgba(255, 255, 255, 0)), url(./media/switzerland-862870_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imgb{
+    transform: scale(1.4);
+    position: absolute;
+    bottom: 108px;
+    left:120px;
+}
+.headt{
+    color: darkred;
+    font-size: 80px;
+    font-weight: 600;
+    letter-spacing: 40px;
+}
+
+.bg-main {
+    background-color: #ececec;
+}
+
+.citazione {
+    height: 30vh;
+}
+
+.apici {
+    color: darkred;
+    font-size: 60px;
+    font-weight: 900;
+
+}
+
+.box{
+    
+    height: 20vh;
+    width: 16vw;
+    border-bottom: 5px solid darkred;
+
+
+}
+
+
+.pallino::before{
+    content:'';
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid darkred;
+    position: absolute;
+    bottom: -12px;
+    left: 46%;
+    background-color: white;
+}
+
+
+
+.separatore{
+    height: 30vh;
+}
+
+p{
+    color: rgb(107, 107, 107);
+}
+
+h3, h4{
+    color: darkred;
+}
+
+
+/* CSS */
+.button-42 {
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #7a0303,darkred);
+  
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+  height: 40px;
+  line-height: 40px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 150px;
+  z-index: 9;
+  border: 0;
+  transition: box-shadow .2s;
+}
+
+.button-42:hover {
+  box-shadow: rgba(117, 1, 1, 0.5) 0 3px 8px;
+}
+
+.sezione2{
+    height: 65vh;
+    background: url(./media/trees2.png),#ececec;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    
+}
+
+.sezione3{
+    min-height: 65vh;
+    
+}
+
+.border-p{
+    position: absolute ;
+    border-left: 2px solid darkred ;
+    padding-left: 5%;
+}
+
+.pallino2::before{
+    content:'';
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid darkred;
+    position: absolute;
+    /* bottom: -12px; */
+    top: 0;
+    left: -7.3%;
+    background-color: white;
+}
+
+.bg-alberi {
+            background-image: url(./media/single.png);
+            background-position: bottom ;
+            background-size: contain;
+            background-repeat: no-repeat;
+
+}
+
+.bg-sezione4{
+    height: 80vh;
+    background-color: #ececec; 
+    
+}
+.Oteam{
+    color: darkred;
+}
+.imgton{
+    height: 200px;
+    width: 200px;
+    border:  2px solid darkred;
+    border-radius: 50%;
+    padding: 3%;
+}
+.tcard{
+    text-align: center;
+    color: darkred;
+}
+.imgs6{
+    height: 300px;
+    width: 300px;
+    border:  2px solid darkred;
+    border-radius: 50%;
+    padding: 1.5%;
+}
+.bgred{
+    height: 60vh;
+    background-image: url(./media/other.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.ftclass{
+    background-color: darkred;
+    height: 50vh;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: small;
+    
+}
